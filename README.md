@@ -1,1 +1,4 @@
-# TO
+# Calculating the response of digital systems
+A digital system transforms an input sequence into an output sequence. Both sequences are defined on the same index domain, i.e., the set of integers. Thus, a system can be understood either as any description of the relationship between the output and input sequences (for example, an equation) or, for instance, an integrated circuit implementing the same operation, where successive indices correspond to clock cycles. The equation (or any other form of description) should be treated as a model of a real digital system. It is worth noting that if we assume the numerical precision is sufficiently high to approximate infinite precision, such a system should be referred to as a discrete-"time" system (due to the integer indices replacing continuous time).
+
+The project aims to analyze and simulate the response of digital systems to specific inputs. It focuses on two types of impulse responses: finite (FIR) and infinite (IIR).
